@@ -1,0 +1,30 @@
+/* Styles pour le conteneur principal VBox */
+.root {
+    -fx-background-color: #f0f4f8;
+}
+
+/* Styles pour les champs de texte */
+.text-field {
+    -fx-pref-width: 250px;
+    -fx-font-size: 14px;
+    -fx-padding: 8px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+}
+
+/* Styles pour le bouton */
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+
+/* Effet de survol pour le bouton */
+.button:hover {
+    -fx-background-color: #0056b3;
+}
